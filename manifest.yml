@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: david-bj-chatbot
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: f8adad10-f9ce-4fba-8d3d-ea49785052b7
+    CAR_SERVICE_HOST: bjdavid.mybluemix.net
